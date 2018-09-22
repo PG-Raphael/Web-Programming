@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>WEB222</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/table.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="seneca.html">Seneca</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2>
+		<h3>My Hobbies</h3>
+		<style>	table, th, td {
+			border: solid black 1px;
+		}</style>
+	
+		<table>
+			<caption>
+				Indoor
+			</caption>
+			<thead style="background-color:lightpink;"></thead>
+			<tr>
+				<th>Type</th>
+				<th>Genres</th>
+				<th>Time (week)</th>
+			</tr>
+			<tr>
+				<th>Computer Game</th>
+				<th>RTS</th>
+				<th>7 hours</th>
+			</tr>
+			<tr>
+				<th>Watching TV</th>
+				<th>Comedy, Drama</th>
+				<th>14 hours</th>
+			</tr>
+			<tr>
+				<th>Reading a book</th>
+				<th>Sci-Fi</th>
+				<th>10 hours</th>
+			</tr>
+		</table>
+
+		<h3>Marvel Characters</h3>
+        <table>
+            <thead style="background-color:violet;">
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Release Date</th>
+                </tr>
+            </thead>
+          
+                <tr>
+                    <td>IronMan</td>
+                    <td>Hero</td>
+                    <td>1963</td>
+                </tr>
+                <tr>
+                    <td>Thanos</td>
+                    <td>Villain </td>
+                    <td>1973</td>
+                </tr>
+                <tr>
+                    <td>Doctor Strange</td>
+                    <td>Hero</td>
+                    <td>1963</td>
+                </tr>
+            </tbody>
+           
+                <tr>
+                    <td>Spider Man</td>
+                    <td>Hero</td>
+                    <td>1962</td>
+                </tr>
+			<tfoot>
+			<tr>
+				<td style="text-align: center;" colspan="3">In Infinity War</td>
+			</tr>
+			</tfoot>
+		</table>
+		
+		<h3> User Table</h3>
+        <div id="table1"></div>
+	
+	<!-- End your code here  -->
+	
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; 2018 Seungmin Yun
+	  </div>
+	</footer>
+</body>
+</html>	  
