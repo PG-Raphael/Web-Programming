@@ -1,0 +1,72 @@
+/*Place all of your CSS Code in this file*/
+
+/********************************************************************************* 
+// * 
+// * WEB222 – Assignment #4b 
+// * 
+// * I declare that this assignment is my own work in accordance with Seneca 
+// * Academic Policy. No part of this assignment has been copied manually or 
+// * electronically from any other source (including web sites) or distributed to 
+// * other students. 
+// * 
+// * Name: Seungmin Yun Student ID: 010820132 Date: 2018/07/30
+// * 
+// ********************************************************************************/
+
+body {
+color: rgb(231, 228, 228);
+background-color: rgba(83, 57, 57, 0.945);
+
+}
+nav,footer{
+    background-color: darkgrey;
+    color: black;
+    font-weight: bold;
+     padding: 4px;
+    vertical-align: bottom;
+    
+}
+header{
+    text-indent: 2em;
+    background-color: #F0C7C5FB;
+    color: black;
+    font-size: 2.5em;
+    height: 150px;
+ }
+h1.app-title {
+    font-weight: bold;
+    font-family: 'Norican', cursive;
+    opacity: 1;
+    padding: 2px;
+}
+div.main-table-container {
+    text-align: left;
+    max-height: 530px; 
+    overflow-y: scroll;
+    color: rgba(255, 255, 255, 0.87);
+}
+table.main-table-top th {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    border: 2px solid white;
+    height: 20px;
+    padding: 6px;
+}
+table.main-table td {
+    background-color: rgb(39, 35, 35);
+    border: 2px solid white;
+    padding: 6px;
+    text-align: left;
+}
+table.main-table p span {
+    font-weight: bold;
+    text-decoration: underline;
+    }
+div.center ul li a{
+    color:black;
+    font-weight: bold;
+    height: 10px;
+       }
+div.center span{
+    color:black;
+    }
